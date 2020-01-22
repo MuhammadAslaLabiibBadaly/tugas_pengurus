@@ -46,7 +46,7 @@ $row =mysqli_fetch_assoc($data);
 						<?php if (!strcmp($row ['gender'], "L")) {echo "CHECKED"; }?> >
 						<label class="form-check-label">Laki-Laki</label>   
 					</div>
-					<div class="form-check form-check-inline">
+					<div class="form-check form-check-inline"> 
 						<input type="radio" name="gender" value="P"class="form-check-input"
 						<?php if (!strcmp($row ['gender'], "P")) {echo "CHECKED"; }?> >
 						<label class="form-check-label">Perempuan</label>  
